@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+header .logo{
+    width: 15%;
+    margin-top: 25px;
+}
+
+header .logo img{
+    width: 100%;
+}
+
+header .contact{
+    color: #fff;
+   
+}
+header .contact a{
+    color: #fff;
+    font-weight: 800;
+    font-size: 28px;
+    display: inline-block;
+    padding: 44px 12px;
+}
+   
+header .button a{
+    background-color: #fff;
+    padding: 15px 35px;
+    font-size: 18px;
+    color: #252525;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 31px;
+}
+
+#mask{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Banner-home-shop.jpg?id=22130);
+    padding: 17rem 61px;
+    background-position: center;
+    background-size: cover;
+    
+}
+#mask .part{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+#mask .part::before{
+    content: 'FFP3 Mask';
+    position: absolute;
+    top: -126px;
+    left: -50px;
+    font-size: 190px;
+    width: 100%;
+    font-weight: bold;
+    color: #d9d9d9;
+    z-index: 1;
+    opacity: calc(20%);
+}
+
+
+#mask .part .left{
+    width: 50%;
+    font-size: 45px;
+    color: #fff;
+    position: relative;
+    z-index: 3;
+}
+
+ 
+
+#mask .part .left p{
+    font-size: 20px;
+    margin-right: 40px;
+    padding-top: 19px;
+}
+#mask .part .right{
+    width: 30%;
+    z-index: 2;
+}
+
+#mask .part .right img{
+    width: 100%;    
+    margin-left: 51px;
+}
+#mask .part .left a{
+
+    display: inline-block;
+    margin-top: 44px;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    background-color: #005a8b;
+    padding: 20px 30px;
+    border-radius: 60px;
+    transition: .5s;
+}
+#mask .part .left a:hover{
+    background-color: #1ca4ee;
+}
+
+#medical{
+    margin-top: 100px;
+    padding: 100px;
+}
+
+#medical .masks{
+    position: relative;
+}
+#medical .masks .topp{
+    text-align: center;
+    font-size: 36px;
+ 
+}
+#medical .masks .topp::before{
+    content: 'Masks';
+    position: absolute;
+    top: -131px;
+    left: 0;
+    font-size: 175px;
+    width: 100%;
+    font-weight: bold;
+    color: #d9d9d9;
+    z-index: -1;
+    opacity: calc(20%);
+}
+
+#medical .masks .bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+#medical .masks .bottom .box{
+    width: 28%;
+    margin-top: 20px;
+    border-radius: 14px;
+    background-color: #f2f2f2;
+}
+
+#medical .masks .bottom .box:hover img{
+    width: 100%;
+}
+#medical .masks .bottom .box img{
+    width: 95%;
+    border-radius: 10px;
+    transition: 0.5s; 
+}
+#medical .masks .bottom .box .image{
+    position: relative;
+}
+#medical .masks .bottom .box .image .icon{
+    position: absolute;
+    top: 4%;
+    width: 10%;
+    background-color: #fff;
+    text-align: center;
+    right: 3%;
+    padding-bottom: 22px;
+    border-radius: 25px;
+  }
+  #medical .masks .bottom .box .image .icon i{
+      margin-top: 22px;
+      transition: 0.5s;
+  }
+
+  
+#medical .masks .bottom .box .text{
+      padding: 20px;
+    }
+#medical .masks .bottom .box .image .icon i:hover{
+        color:#1ca4ee ;
+    }
+  
+#medical .masks .bottom .box .text .top a{
+        font-size: 22px;
+        width: 100%;
+        color: #111111;
+  }
+
+#medical .masks .bottom .box .text .many p{
+        color: #0066b0;
+        font-weight: bold;
+     margin-top: 9px;
+    }
+#medical .masks .bottom .box .text .many{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#medical .masks .button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#medical .masks .button a{
+    display: inline-block;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    background-color: #006ba6;
+    padding: 19px 28px;
+    border-radius: 40px;
+    transition: .5s;
+    margin-bottom: -20px;
+    margin-top: 99px;
+}
+#medical .masks .button a:hover{
+    background-color: #1ca4ee;
+}
+
+#premium{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/quality-banner.jpg?id=22083);
+    background-position: center;
+    background-size: cover;
+    padding: 10rem 0;
+    text-align: center;
+    position: relative;
+    z-index: -2;
+}
+
+#premium .text{
+    width: 57%;
+    color: #fff;
+    z-index: 1;
+}
+
+#premium .text::before{
+    content: 'Quality';
+    position: absolute;
+    top: 30px;
+    left: -296px;
+    font-size: 175px;
+    width: 100%;
+    font-weight: bold;
+    color: #d9d9d9;
+    z-index: -1;
+    opacity: calc(35%);
+}
+#premium .text h2{
+    font-size: 37px;
+}
+
+#premium .text p{
+    font-size: 20px;
+   padding: 0 100px;
+   margin-top: 20px;
+}
+
+#premium .text .button{
+    display: inline-block;
+    margin-top: 20px;
+    color: #006ba6;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:#fff ;
+    padding: 15px 25px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+#premium .text .button:hover{
+    background-color: #006ba6;
+    color: #fff; ;
+}
